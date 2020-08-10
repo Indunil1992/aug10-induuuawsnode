@@ -1,0 +1,143 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0c24a312-b381-4b18-8efb-fbc19b3107ab": {
+        "id": "0c24a312-b381-4b18-8efb-fbc19b3107ab",
+        "parent": null,
+        "name": "aug10-induuuawsnode.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "aug10-induuuawsnode.js",
+        "cursor": {
+          "lineNumber": 16,
+          "column": 20
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "aug10Induuuawsnode"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1induuAug10dfdfdfddany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "0c24a312-b381-4b18-8efb-fbc19b3107ab"
+    ],
+    "currentFileId": "0c24a312-b381-4b18-8efb-fbc19b3107ab",
+    "resources": {
+      "apigusEast1induuAug10dfdfdfddany": {
+        "name": "apigusEast1induuAug10dfdfdfddany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "induu-Aug10",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "dfdfd/fdd",
+          "resourcePath": "/dfdfd/fdd",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1",
+          "mode": 0
+        }
+      },
+      "ddbinduAug10": {
+        "name": "ddbinduAug10",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/induAug10",
+            "name": "induAug10",
+            "partitionKey": "indupart1",
+            "partitionKeyType": "S",
+            "hasSortKey": true,
+            "sortKey": "indusort1",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 1,
+            "secondaryIndexes": {
+              "indupart1-indusort1-index": {
+                "name": "indupart1-indusort1-index",
+                "type": "LSI",
+                "partitionKey": "indupart1",
+                "partitionKeyType": "S",
+                "hasSortKey": true,
+                "sortKey": "indusort1",
+                "sortKeyType": "S"
+              },
+              "induAug10-indusort2-index": {
+                "name": "induAug10-indusort2-index",
+                "type": "GSI",
+                "partitionKey": "induAug10",
+                "partitionKeyType": "S",
+                "hasSortKey": true,
+                "sortKey": "indusort2",
+                "sortKeyType": "S"
+              }
+            }
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.5",
+    "projectName": "aug10-induuuawsnode",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1597048034679
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "aug10-induuuawsnode",
+      "url": "https://github.com/Indunil1992/aug10-induuuawsnode"
+    }
+  }
+}
